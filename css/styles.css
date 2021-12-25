@@ -665,10 +665,17 @@ img {
   color: var(--text-color);
   letter-spacing: 0.01em;
   line-height: 1.16;
-  position: relative;
 }
 .form-comment-label {
   margin-bottom: 20px;
+}
+.form-title {
+  display: block;
+  margin-bottom: 4px;
+}
+.positioner {
+  position: relative;
+  display: block;
 }
 .form-input {
   width: 100%;
@@ -677,12 +684,12 @@ img {
   border-radius: 4px;
   padding: 12px 2px 12px 42px;
   cursor: pointer;
-  margin-top: 4px;
 }
 .icons-form {
   position: absolute;
   top: 50%;
   left: 12px;
+  transform: translateY(-50%);
   cursor: pointer;
 }
 .form-input:focus {

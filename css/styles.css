@@ -693,6 +693,7 @@ img {
   cursor: pointer;
 }
 .form-input:focus {
+  border: none;
   outline: 1px solid var(--active-color);
 }
 .form-input:focus + .icons-form {
@@ -708,6 +709,7 @@ img {
   margin-top: 4px;
 }
 .form-comment-text:focus {
+  border: none;
   outline: 1px solid var(--active-color);
 }
 .form-comment-text::placeholder {
